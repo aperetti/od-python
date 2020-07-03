@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **search_get**
-> list[InlineResponse20018] search_get(q)
+> list[InlineResponse20034] search_get(q)
 
 GET /search
 
@@ -16,7 +16,6 @@ Search players by personaname.
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -31,7 +30,7 @@ try:
     api_response = api_instance.search_get(q)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling SearchApi->search_get: %s\n" % e)
+    print "Exception when calling SearchApi->search_get: %s\n" % e
 ```
 
 ### Parameters
@@ -42,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**list[InlineResponse20018]**](InlineResponse20018.md)
+[**list[InlineResponse20034]**](InlineResponse20034.md)
 
 ### Authorization
 

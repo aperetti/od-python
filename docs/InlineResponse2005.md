@@ -3,14 +3,10 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**hero_id** | **int** |  | [optional] 
-**last_played** | **int** | last_played | [optional] 
-**games** | **int** | games | [optional] 
-**win** | **int** | win | [optional] 
-**with_games** | **int** | with_games | [optional] 
-**with_win** | **int** | with_win | [optional] 
-**against_games** | **int** | against_games | [optional] 
-**against_win** | **int** | against_win | [optional] 
+**start_game_items** | [**InlineResponse2005StartGameItems**](InlineResponse2005StartGameItems.md) |  | [optional] 
+**early_game_items** | [**InlineResponse2005EarlyGameItems**](InlineResponse2005EarlyGameItems.md) |  | [optional] 
+**mid_game_items** | [**InlineResponse2005MidGameItems**](InlineResponse2005MidGameItems.md) |  | [optional] 
+**late_game_items** | [**InlineResponse2005LateGameItems**](InlineResponse2005LateGameItems.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **metadata_get**
-> InlineResponse20016 metadata_get()
+> InlineResponse20010 metadata_get()
 
 GET /metadata
 
@@ -16,7 +16,6 @@ Site metadata
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -30,7 +29,7 @@ try:
     api_response = api_instance.metadata_get()
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling MetadataApi->metadata_get: %s\n" % e)
+    print "Exception when calling MetadataApi->metadata_get: %s\n" % e
 ```
 
 ### Parameters
@@ -38,7 +37,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**InlineResponse20016**](InlineResponse20016.md)
+[**InlineResponse20010**](InlineResponse20010.md)
 
 ### Authorization
 

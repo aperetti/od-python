@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **matches_match_id_get**
-> InlineResponse200 matches_match_id_get(match_id)
+> InlineResponse2009 matches_match_id_get(match_id)
 
 GET /matches/{match_id}
 
@@ -16,7 +16,6 @@ Match data
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -31,7 +30,7 @@ try:
     api_response = api_instance.matches_match_id_get(match_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling MatchesApi->matches_match_id_get: %s\n" % e)
+    print "Exception when calling MatchesApi->matches_match_id_get: %s\n" % e
 ```
 
 ### Parameters
@@ -42,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**InlineResponse200**](InlineResponse200.md)
+[**InlineResponse2009**](InlineResponse2009.md)
 
 ### Authorization
 

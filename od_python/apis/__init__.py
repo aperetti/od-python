@@ -2,8 +2,10 @@ from __future__ import absolute_import
 
 # import apis into api package
 from .benchmarks_api import BenchmarksApi
+from .constants_api import ConstantsApi
 from .distributions_api import DistributionsApi
 from .explorer_api import ExplorerApi
+from .find_matches_api import FindMatchesApi
 from .health_api import HealthApi
 from .hero_stats_api import HeroStatsApi
 from .heroes_api import HeroesApi
@@ -11,7 +13,9 @@ from .leagues_api import LeaguesApi
 from .live_api import LiveApi
 from .matches_api import MatchesApi
 from .metadata_api import MetadataApi
+from .parsed_matches_api import ParsedMatchesApi
 from .players_api import PlayersApi
+from .players_by_rank_api import PlayersByRankApi
 from .pro_matches_api import ProMatchesApi
 from .pro_players_api import ProPlayersApi
 from .public_matches_api import PublicMatchesApi

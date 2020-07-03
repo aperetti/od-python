@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **records_field_get**
-> list[InlineResponse20029] records_field_get(field)
+> list[InlineResponse20028] records_field_get(field)
 
 GET /records/{field}
 
@@ -16,7 +16,6 @@ Get top performances in a stat
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -31,7 +30,7 @@ try:
     api_response = api_instance.records_field_get(field)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling RecordsApi->records_field_get: %s\n" % e)
+    print "Exception when calling RecordsApi->records_field_get: %s\n" % e
 ```
 
 ### Parameters
@@ -42,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**list[InlineResponse20029]**](InlineResponse20029.md)
+[**list[InlineResponse20028]**](InlineResponse20028.md)
 
 ### Authorization
 

@@ -3,10 +3,13 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**account_id** | **int** | account_id | [optional] 
-**match_id** | **int** | match_id | [optional] 
-**solo_competitive_rank** | **int** | solo_competitive_rank | [optional] 
-**competitive_rank** | **int** | competitive_rank | [optional] 
+**tracked_until** | **str** | tracked_until | [optional] 
+**solo_competitive_rank** | **str** | solo_competitive_rank | [optional] 
+**competitive_rank** | **str** | competitive_rank | [optional] 
+**rank_tier** | **float** | rank_tier | [optional] 
+**leaderboard_rank** | **float** | leaderboard_rank | [optional] 
+**mmr_estimate** | [**InlineResponse20012MmrEstimate**](InlineResponse20012MmrEstimate.md) |  | [optional] 
+**profile** | [**InlineResponse20012Profile**](InlineResponse20012Profile.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **replays_get**
-> list[InlineResponse20028] replays_get(match_id)
+> list[InlineResponse20029] replays_get(match_id)
 
 GET /replays
 
@@ -16,7 +16,6 @@ Get data to construct a replay URL with
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -31,7 +30,7 @@ try:
     api_response = api_instance.replays_get(match_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ReplaysApi->replays_get: %s\n" % e)
+    print "Exception when calling ReplaysApi->replays_get: %s\n" % e
 ```
 
 ### Parameters
@@ -42,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**list[InlineResponse20028]**](InlineResponse20028.md)
+[**list[InlineResponse20029]**](InlineResponse20029.md)
 
 ### Authorization
 

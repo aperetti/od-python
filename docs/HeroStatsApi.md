@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **hero_stats_get**
-> list[InlineResponse20022] hero_stats_get()
+> list[InlineResponse2002] hero_stats_get()
 
 GET /heroStats
 
@@ -16,7 +16,6 @@ Get stats about hero performance in recent matches
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -30,7 +29,7 @@ try:
     api_response = api_instance.hero_stats_get()
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling HeroStatsApi->hero_stats_get: %s\n" % e)
+    print "Exception when calling HeroStatsApi->hero_stats_get: %s\n" % e
 ```
 
 ### Parameters
@@ -38,7 +37,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**list[InlineResponse20022]**](InlineResponse20022.md)
+[**list[InlineResponse2002]**](InlineResponse2002.md)
 
 ### Authorization
 

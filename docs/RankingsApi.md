@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **rankings_get**
-> InlineResponse20019 rankings_get(hero_id)
+> InlineResponse20027 rankings_get(hero_id)
 
 GET /rankings
 
@@ -16,7 +16,6 @@ Top players by hero
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -31,7 +30,7 @@ try:
     api_response = api_instance.rankings_get(hero_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling RankingsApi->rankings_get: %s\n" % e)
+    print "Exception when calling RankingsApi->rankings_get: %s\n" % e
 ```
 
 ### Parameters
@@ -42,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**InlineResponse20019**](InlineResponse20019.md)
+[**InlineResponse20027**](InlineResponse20027.md)
 
 ### Authorization
 

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **leagues_get**
-> list[InlineResponse20024] leagues_get()
+> list[InlineResponse2008] leagues_get()
 
 GET /leagues
 
@@ -16,7 +16,6 @@ Get league data
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -30,7 +29,7 @@ try:
     api_response = api_instance.leagues_get()
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling LeaguesApi->leagues_get: %s\n" % e)
+    print "Exception when calling LeaguesApi->leagues_get: %s\n" % e
 ```
 
 ### Parameters
@@ -38,7 +37,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**list[InlineResponse20024]**](InlineResponse20024.md)
+[**list[InlineResponse2008]**](InlineResponse2008.md)
 
 ### Authorization
 

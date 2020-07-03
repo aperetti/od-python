@@ -3,13 +3,9 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**tracked_until** | **str** | tracked_until | [optional] 
-**solo_competitive_rank** | **str** | solo_competitive_rank | [optional] 
-**competitive_rank** | **str** | competitive_rank | [optional] 
-**rank_tier** | **float** | rank_tier | [optional] 
-**leaderboard_rank** | **float** | leaderboard_rank | [optional] 
-**mmr_estimate** | [**InlineResponse2001MmrEstimate**](InlineResponse2001MmrEstimate.md) |  | [optional] 
-**profile** | [**InlineResponse2001Profile**](InlineResponse2001Profile.md) |  | [optional] 
+**ranks** | [**InlineResponse2001Ranks**](InlineResponse2001Ranks.md) |  | [optional] 
+**mmr** | [**InlineResponse2001Mmr**](InlineResponse2001Mmr.md) |  | [optional] 
+**country_mmr** | [**InlineResponse2001CountryMmr**](InlineResponse2001CountryMmr.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

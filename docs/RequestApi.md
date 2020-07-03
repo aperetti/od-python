@@ -17,7 +17,6 @@ Get parse request state
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -32,7 +31,7 @@ try:
     api_response = api_instance.request_job_id_get(job_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling RequestApi->request_job_id_get: %s\n" % e)
+    print "Exception when calling RequestApi->request_job_id_get: %s\n" % e
 ```
 
 ### Parameters
@@ -65,7 +64,6 @@ Submit a new parse request
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -80,7 +78,7 @@ try:
     api_response = api_instance.request_match_id_post(match_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling RequestApi->request_match_id_post: %s\n" % e)
+    print "Exception when calling RequestApi->request_match_id_post: %s\n" % e
 ```
 
 ### Parameters

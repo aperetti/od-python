@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **distributions_get**
-> InlineResponse20017 distributions_get()
+> InlineResponse2001 distributions_get()
 
 GET /distributions
 
@@ -16,7 +16,6 @@ Distributions of MMR data by bracket and country
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -30,7 +29,7 @@ try:
     api_response = api_instance.distributions_get()
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling DistributionsApi->distributions_get: %s\n" % e)
+    print "Exception when calling DistributionsApi->distributions_get: %s\n" % e
 ```
 
 ### Parameters
@@ -38,7 +37,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**InlineResponse20017**](InlineResponse20017.md)
+[**InlineResponse2001**](InlineResponse2001.md)
 
 ### Authorization
 

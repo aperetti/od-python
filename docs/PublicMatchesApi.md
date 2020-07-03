@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **public_matches_get**
-> list[InlineResponse20015] public_matches_get(mmr_ascending=mmr_ascending, mmr_descending=mmr_descending, less_than_match_id=less_than_match_id)
+> list[InlineResponse20026] public_matches_get(mmr_ascending=mmr_ascending, mmr_descending=mmr_descending, less_than_match_id=less_than_match_id)
 
 GET /publicMatches
 
@@ -16,7 +16,6 @@ Get list of randomly sampled public matches
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -33,7 +32,7 @@ try:
     api_response = api_instance.public_matches_get(mmr_ascending=mmr_ascending, mmr_descending=mmr_descending, less_than_match_id=less_than_match_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling PublicMatchesApi->public_matches_get: %s\n" % e)
+    print "Exception when calling PublicMatchesApi->public_matches_get: %s\n" % e
 ```
 
 ### Parameters
@@ -46,7 +45,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**list[InlineResponse20015]**](InlineResponse20015.md)
+[**list[InlineResponse20026]**](InlineResponse20026.md)
 
 ### Authorization
 

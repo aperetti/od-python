@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **pro_players_get**
-> list[InlineResponse20013] pro_players_get()
+> list[InlineResponse20025] pro_players_get()
 
 GET /proPlayers
 
@@ -16,7 +16,6 @@ Get list of pro players
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -30,7 +29,7 @@ try:
     api_response = api_instance.pro_players_get()
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ProPlayersApi->pro_players_get: %s\n" % e)
+    print "Exception when calling ProPlayersApi->pro_players_get: %s\n" % e
 ```
 
 ### Parameters
@@ -38,7 +37,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**list[InlineResponse20013]**](InlineResponse20013.md)
+[**list[InlineResponse20025]**](InlineResponse20025.md)
 
 ### Authorization
 

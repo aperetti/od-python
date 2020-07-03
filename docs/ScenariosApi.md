@@ -18,7 +18,6 @@ Win rates for certain item timings on a hero for items that cost at least 1400 g
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -34,7 +33,7 @@ try:
     api_response = api_instance.scenarios_item_timings_get(item=item, hero_id=hero_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ScenariosApi->scenarios_item_timings_get: %s\n" % e)
+    print "Exception when calling ScenariosApi->scenarios_item_timings_get: %s\n" % e
 ```
 
 ### Parameters
@@ -68,7 +67,6 @@ Win rates for heroes in certain lane roles
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -84,7 +82,7 @@ try:
     api_response = api_instance.scenarios_lane_roles_get(lane_role=lane_role, hero_id=hero_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ScenariosApi->scenarios_lane_roles_get: %s\n" % e)
+    print "Exception when calling ScenariosApi->scenarios_lane_roles_get: %s\n" % e
 ```
 
 ### Parameters
@@ -118,7 +116,6 @@ Miscellaneous team scenarios
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -133,7 +130,7 @@ try:
     api_response = api_instance.scenarios_misc_get(scenario=scenario)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ScenariosApi->scenarios_misc_get: %s\n" % e)
+    print "Exception when calling ScenariosApi->scenarios_misc_get: %s\n" % e
 ```
 
 ### Parameters

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **pro_matches_get**
-> list[InlineResponse20014] pro_matches_get(less_than_match_id=less_than_match_id)
+> list[InlineResponse2006] pro_matches_get(less_than_match_id=less_than_match_id)
 
 GET /proMatches
 
@@ -16,7 +16,6 @@ Get list of pro matches
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -31,7 +30,7 @@ try:
     api_response = api_instance.pro_matches_get(less_than_match_id=less_than_match_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ProMatchesApi->pro_matches_get: %s\n" % e)
+    print "Exception when calling ProMatchesApi->pro_matches_get: %s\n" % e
 ```
 
 ### Parameters
@@ -42,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**list[InlineResponse20014]**](InlineResponse20014.md)
+[**list[InlineResponse2006]**](InlineResponse2006.md)
 
 ### Authorization
 

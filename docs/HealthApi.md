@@ -16,7 +16,6 @@ Get service health data
 
 ### Example 
 ```python
-from __future__ import print_function
 import time
 import od_python
 from od_python.rest import ApiException
@@ -30,7 +29,7 @@ try:
     api_response = api_instance.health_get()
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling HealthApi->health_get: %s\n" % e)
+    print "Exception when calling HealthApi->health_get: %s\n" % e
 ```
 
 ### Parameters
