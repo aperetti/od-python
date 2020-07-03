@@ -1,6 +1,6 @@
 # od_python
 
-This project is generated for OpenDota api using swagger.
+This project is generated for OpenDota api using swagger. Credit to https://github.com/Seraphli for developing the original code.
 
 What I do:
 ```sh
@@ -31,7 +31,7 @@ Python 2.7 and 3.4+
 If the python package is hosted on Github, you can install directly from Github
 
 ```sh
-pip install git+https://github.com/seraphli/od-python.git
+pip install git+https://github.com/aperetti/od-python.git
 ```
 (you may need to run `pip` with root permission: `sudo pip install git+https://github.com/seraphli/od-python.git`)
 
